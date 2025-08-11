@@ -1,4 +1,5 @@
 # powershell-archive-object-extractor
+
 A PowerShell script and Windows executable providing an alternative method to extract `.zip` and `.tar` files on Windows. It improves on the built-in File Explorer extractor tool—which was malfunctioning and unusable for sporadic corporate users—and offers a reliable alternative to limited-functionality third-party tools like WinZip.
 
 ---
@@ -16,7 +17,7 @@ To solve this, I created this PowerShell-based archive extractor as a free, depe
 ## Features
 
 - Extract `.zip`, `.tar`, `.tar.gz`, `.tgz`, and `.tar.bz2` archives  
-- Supports both GUI and command-line modes  
+- Supports both a **PowerShell script** for command-line usage and a **compiled Windows executable (.exe)** for a graphical user interface (GUI) experience  
 - Displays completion messages with extraction paths  
 - Logs errors to a local log file for troubleshooting  
 - Portable executable available — no PowerShell setup required  
